@@ -1,0 +1,20 @@
+/* marcar a tag, o id ou a classe */
+body{
+    background-color: rgb(64, 57, 70);
+}
+
+/* chamando por id usa # */
+
+
+
+/* chamando por class usa . */
+.titulos{
+    color:rgb(224, 224, 224);
+    font-size:28px;
+    font-family:arial;
+}
+.corpo{
+    color:rgb(224, 224, 224);
+    font-size:16px;
+    font-family:arial;
+}
