@@ -8,13 +8,8 @@ body{
 
 
 /* chamando por class usa . */
-.titulos{
-    color:rgb(224, 224, 224);
-    font-size:28px;
-    font-family:arial;
-}
 .corpo{
-    color:rgb(224, 224, 224);
+    color:rgb(0, 0, 0);
     font-size:16px;
     font-family:arial;
 }
