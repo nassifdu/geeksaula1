@@ -1,6 +1,7 @@
+<!doctype html>
 <html>
     <head>
-        <title>início</title>
+        <title>inicio</title>
         <link rel="stylesheet" href="./style.css">
 
         <!-- importando o bootstrap -->
@@ -8,6 +9,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+        <script src="./script.js"></script>
 
     </head>
     <body>
@@ -37,7 +39,24 @@
             </div>
         </nav>
         <h1>menu</h1>
+        <br>
+        <p class="corpo">eai, tudo bem?</p>
+        
         <hr>
-        <p class="corpo">eaí, tudo bem?</p>
+        <h2>cadastre sua conta</h2>
+        <input id="qtdPessoas", placeholder="quantas pessoas?">
+        <button onclick="cadastrar()">
+          criar
+        </button>
+        <div id="pessoas"></div>
+        <hr>
+        <button onclick="preencherSelect()">preencher select</button>
+        <select id="meuSelect"></select>
+        <br>
+        <input id="inputItem" placeholder="nome do item">
+        <button onclick="adicionarItem()">adicionar</button>
+        <br>
+        <button onclick="apagarItem()">apagar</button>
+
     </body>
 </html>
